@@ -1,0 +1,84 @@
+# ==========================================
+# Terraform working directories
+# ==========================================
+
+.terraform/
+**/.terraform/*
+
+# ==========================================
+# Terraform state files
+# ==========================================
+
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.backup
+
+# ==========================================
+# Terraform crash logs
+# ==========================================
+
+crash.log
+crash.*.log
+
+
+# ==========================================
+# Override files
+# ==========================================
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ==========================================
+# Terraform CLI configuration
+# ==========================================
+
+.terraformrc
+terraform.rc
+
+# ==========================================
+# Terraform plans
+# Plan files can contain sensitive data
+# ==========================================
+
+*.tfplan
+*.plan
+plan.out
+
+# ==========================================
+# Provider and dependency lock files
+# ==========================================
+
+# DO NOT ignore .terraform.lock.hcl.
+# Commit it to Git to keep provider selections reproducible.
+
+# ==========================================
+# Local environment files
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Editor and operating system files
+# ==========================================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
