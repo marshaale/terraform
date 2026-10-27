@@ -1,0 +1,1 @@
+state_bucket_name = "2026terraform-state-bucket-example"
